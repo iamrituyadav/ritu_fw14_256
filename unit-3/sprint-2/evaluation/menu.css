@@ -1,0 +1,32 @@
+#main {
+  display: grid;
+  grid-template-columns: repeat(3, 28%);
+  grid-gap: 30px;
+  width: 100%;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+#main > div {
+  padding: 20px;
+}
+
+button {
+  background-color: rgb(34, 177, 34);
+  color: white;
+  width: 130px;
+  height: 35px;
+}
+
+h1 {
+  text-align: center;
+}
+#cart {
+  margin: 0 70%;
+  height: 0p5x;
+  background-color: red;
+}
+
